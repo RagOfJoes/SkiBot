@@ -1,0 +1,31 @@
+{
+  "name": "skibot",
+  "version": "0.0.1",
+  "description": "Automagically setup reservations!",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
+  },
+  "author": "Victor Ragojos",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.22",
+    "@types/dotenv": "^8.2.0",
+    "@types/puppeteer": "^5.4.0",
+    "@types/request": "^2.48.5",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.1.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "moment": "^2.29.1",
+    "puppeteer": "^5.5.0",
+    "request": "^2.88.2"
+  },
+  "prettier": {
+    "tabWidth": 2
+  }
+}
